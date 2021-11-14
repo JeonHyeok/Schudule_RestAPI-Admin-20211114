@@ -57,7 +57,7 @@
             <li id="category1" class="menuBtn"><a href="/main/studio">Studio</a></li>
             <li id="category2" class="menuBtn"><a href="/main/rental">Rental</a></li>
             <li id="category3" class="menuBtn"><a href="/main/consulting">Consulting</a></li>
-            <li id="category4"><a href="/studio">FAQ</a></li>
+            <li id="category4"><a href="/faq">FAQ</a></li>
         </ul>
         
         <div class="navbar_icons">

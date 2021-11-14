@@ -4,7 +4,7 @@ $(function() {
 		var ret = "";
 
 		if (answer == true) {
-			document.location.href="/index";
+			document.location.href="/main";
 		}
 	});
 });
