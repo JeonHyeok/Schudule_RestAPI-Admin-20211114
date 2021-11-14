@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* HEADER */
+.headerContainer { /********************************/
+	display: flex;
+	height: 50px;
+	min-width: 1050px;
+}
+
+.calendar_title { /****left*************/
+	min-width: 230px; flex-basis : 20%;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+	padding-top: 5px;
+	flex-basis: 20%;
+}
+
+#icon_calendar {
+	color: gray;
+	vertical-align: middle;
+}
+
+.calendar_title_logo {
+	vertical-align: middle;
+	font-size: 30px;
+}
+
+.calendar_main { /********right**************/
+	min-height: 100%;
+	flex-basis: 80%;
+	display: flex;
+}
+
+.calendar_main_left {
+	height: 100%;
+	display: inline-block;
+	flex-basis: 70%;
+	padding-left: 30px;
+	padding-top: 8px;
+}
+
+.calendar_main_right {
+	height: 100%;
+	display: flex;
+	flex-basis: 30%;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.current-year-month {
+	font-size: 26px;
+	font-weight: 550;
+	margin: 10px;
+	vertical-align: sub;
+}
+
+#prev, #next {
+	font-size: 20px;
+}
+
+.headerBtn {
+	font-size: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 33px;
+	width: 110px;
+}
+
+.sectionContainer { /********************************/
+	display: flex;
+	min-width: 1050px;
+}
+/* LEFT */
+.leftSection { /**********left*********/
+	min-width: 230px;
+	height: 100%;
+	display: flex;
+	flex-basis: 20%;
+	flex-direction: column;
+	box-sizing: border-box;
+}
+
+.userProfile {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	margin-top: 5%;
+}
+
+
+#icon_user {
+	color: rgb(51, 51, 51);
+	margin: 5%;
+}
+
+.profileName {
+	display: inline-block;
+	vertical-align: super; /* inline 요소 수평정렬 */
+	margin-top: 20%;
+	font-size: 33px;
+}
+
+.scheduleBtn {
+	font-size: 15px;
+	font-weight: 600;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin: 20px auto;
+	display: block;
+}
+
+.contentContainer {
+	margin-top: 50px;
+}
+
+/* =============================================RIGHT============================================= */
+.rightSection { 
+	height: 800px;
+	min-width: 920px;
+	flex-basis: 80%;
+	display: flex;
+}
